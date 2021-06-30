@@ -1,0 +1,47 @@
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 2em 0;
+}
+
+div[id^="slot"] {
+  display: none;
+}
+
+img {
+  width: 100px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.slot {
+  float: left;
+  width: calc(100% / 3);
+  font-size: 40px;
+}
+
+.game {
+  background-color: #feffc7;
+  margin: 0 auto;
+  padding: 1em;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+input {
+  background-color: #f3ffe4;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  display: block;
+  margin: 1em auto;
+}
+
+input:hover {
+  -webkit-box-shadow: 1px #aaa;
+          box-shadow: 1px #aaa;
+}
+/*# sourceMappingURL=index.css.map */
